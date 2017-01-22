@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppScanExtension>
+  <!-- Front End MetaData -->
+  <FullName>MultiSTPExt</FullName>
+  <Description>Extension to allow configuring multiple Starting URLs</Description>
+  <Version>1.0</Version>
+  <Author>IBM Corp.</Author>
+  <Copyright>© Copyright IBM Corp. 2000, 2017. All Rights Reserved.</Copyright>
+  <MainDllFile>MultiSTPExt.dll</MainDllFile>
+  <IconFile>stp.png</IconFile>
+  <!-- Target Application this extension can install into, with minimum  supported version. -->
+  <TargetEdition>
+    <!-- supported values: AppScanAuditors, AppScanDev, AppScanQA, AppScanXM, All -->
+    <ID>All</ID>
+    <MinCompatibleVersion>9.0</MinCompatibleVersion>
+  </TargetEdition>
+</AppScanExtension>
